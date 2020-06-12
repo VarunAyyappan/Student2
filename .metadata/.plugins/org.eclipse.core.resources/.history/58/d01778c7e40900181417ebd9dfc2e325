@@ -1,0 +1,10 @@
+package jrJava.inheritence1_polymorphism;
+
+public abstract class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

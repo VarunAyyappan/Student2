@@ -1,0 +1,21 @@
+package jrJava.recursion4;
+
+public class HanoiTower {
+
+	public static void main(String[] args) {
+		// We have three towers: 'A', 'B', 'C'
+		// 'A' tower has 4 disks
+	}
+	
+	public static void move(int n, char from, char stage ,char to) {
+		if(n==1) {
+			System.out.println("Move disks " + n + " from " + from + " to " + to + ".");
+			return;
+		}
+		
+		move(n-1, from, to, stage); // Move (n-1) from 'from', to 'stage'
+		System.out.println("Move disk " + n + " from " + from + " to " + to + "."); // Move (n-1) disks from 'from' to 'to'
+		move(n-1, stage, from, to);
+	}
+
+}

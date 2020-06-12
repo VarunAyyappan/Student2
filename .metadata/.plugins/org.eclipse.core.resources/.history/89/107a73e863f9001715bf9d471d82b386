@@ -1,0 +1,135 @@
+package jrJava.tree1;
+
+
+public class Tree {
+
+	private Node root;
+	
+	public Tree(){
+		root = null;
+	}
+	
+	
+	public Node find(int id){
+		
+		if(root==null) return null;
+		
+		Node current = root;
+		
+		while(current.id!=id){
+			if(id<current.id) current = current.leftChild;
+			else  current = current.rightChild;
+			
+			if(current==null) return null;
+		}
+		
+		return current;
+	}
+	
+	
+	
+	public void insert(int id, double value){
+		Node node = new Node(id, value);
+		
+		if(root==null){
+			root = node;
+			return;
+		}
+		
+		Node current = root;
+		Node parent; 
+		
+		while(true){
+			
+			parent = current;
+			if(id<current.id){
+				current = current.leftChild;
+				if(current==null){
+					parent.leftChild = node;
+					return;
+				}
+			}
+			else {
+				current = current.rightChild;
+				if(current==null){
+					parent.rightChild = node;
+					return;
+				}
+			}
+			
+			
+		}
+	}
+	
+	public void printTreeInOrder() {
+		traverse();
+	}
+	
+	/*public void traverse(){
+		traverse(root);
+	}*/
+	
+	
+	private void traverse(Node node){
+		if(node==null) return;
+		traverse(node.leftChild);
+		System.out.println(node);
+		traverse(node.rightChild);
+	}
+	
+	
+	public void traverseTopToBottom(){
+		
+		
+	}
+	
+	
+	
+	public Node minimum(){
+		
+		if(root==null) return null;
+		Node current = root;
+		while(current.leftChild!=null){
+			current = current.leftChild;
+		}
+		return current;
+	}
+	
+	public Node maximum(){
+		
+		if(root==null) return null;
+		Node current = root;
+		while(current.rightChild!=null){
+			current = current.rightChild;
+		}
+		return current;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+package jrJava.linkedList4;
+
+import java.util.StringTokenizer;
+
+public class Employee implements Comparable<Employee>{
+
+	private String firstName, lastName;
+	private int id;
+	private String title;
+	private int hiredYear;
+	private int salary;
+	private int dobYY, dobMM, dobDD;
+	private char gender;
+	private int height, weight;
+	
+	
+	public Employee(String line){
+		StringTokenizer st = new StringTokenizer(line, "\t");
+		firstName = st.nextToken();
+		lastName = st.nextToken();
+		id = Integer.parseInt(st.nextToken());
+		title = st.nextToken();
+		hiredYear = Integer.parseInt(st.nextToken());
+		salary = Integer.parseInt(st.nextToken());
+		dobYY = Integer.parseInt(st.nextToken());
+		dobMM = Integer.parseInt(st.nextToken());
+		dobDD = Integer.parseInt(st.nextToken());
+		gender = st.nextToken().charAt(0);
+		height = Integer.parseInt(st.nextToken());
+		weight = Integer.parseInt(st.nextToken());
+	}
+	
+	public String toString() {
+		return firstName + ", " + lastName + ", " + id + ", " +  salary;
+	}
+	
+	public int compareTo(Employee o){
+		if(firstName.compareTo(o.firstName)>0) return 1;
+		else if(firstName.compareTo(o.firstName)>0) return 1;
+		else {
+			if(salary>o.salary) return 1;
+			else if(salary<o.salary) return -1;
+			else {
+				if(id>o.id) return 1;
+				else if(id<o.id) return -1;
+				else return 0;
+			}
+		}
+	}
+	
+}

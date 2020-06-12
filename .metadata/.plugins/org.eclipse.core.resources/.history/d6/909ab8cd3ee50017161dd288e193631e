@@ -1,0 +1,160 @@
+package jrJava.linkedList3;
+
+import jrJava.linkedList2.Link;
+
+public class LinkedList<E> {
+	
+	private Link<E> first;
+	
+	public LinkedList(){
+		first = null; // redundant
+	}
+	
+	public MyIterator getIterator() {
+		return new MyIterator();
+	}
+	
+	public boolean isEmpty(){
+		return first==null;
+	}
+	
+	
+	private Link<E> getFirst(){
+		return first;
+	}
+	
+	
+	public void insertAtBeginning(E obj){
+		Link<E> toInsert = new Link(obj);
+		toInsert.next = first;
+		first = toInsert;
+	}
+	
+	
+	public Link<E> remove(int id){
+		
+		if(first==null) return null;
+		
+		Link<E> current = first;
+		Link<E> previous = null;
+		
+		while(current.id!=id){
+			previous = current;
+			current = current.next;
+			if(current==null) return null; // reached the end.
+		}
+		
+		if(previous==null) first = first.next; // The first happens to be the one to be removed.
+		else previous.next = current.next;
+		
+		return current;
+	}
+	
+	
+	public Link find(int id){
+		Link current = first;
+		while(current!=null){
+			if(current.id==id) return current;
+			current = current.next;
+		}
+		return null;
+	}
+	
+	
+	public int size(){
+		int count = 0;
+		Link<E> current = first;
+		while(current!=null){
+			count++;
+			current = current.next;
+		}
+		return count;
+	}
+	
+	
+	public E removeFirst(){
+		Link<E> toRemove = first;
+		if(first!=null) first = first.next;
+		return toRemove.obj;
+	}
+	
+	
+	public String toString(){
+		
+		if(isEmpty()) return "Empty";
+		
+		StringBuilder sb = new StringBuilder();
+		
+		Link current = first;
+	
+		while(current!=null){
+			sb.append(current.toString());
+			sb.append(" ");
+			current = current.next;
+		}
+		
+		return sb.toString();
+	}
+
+	public class MyIterator {
+		private Link<E> current, previous;
+		
+		
+		public void reset(){
+			current = null;
+			previous = null;
+		}
+		
+		public boolean hasNext(){
+			if(current==null && previous==null) return first!=null;
+			return current.next!=null;
+		}
+		
+		
+		public Link next(){
+			if(current==null && previous==null){
+				current = first;
+			}
+			else {
+				previous = current;
+				current = current.next;
+			}
+			
+			return current;
+		}
+	}
+	
+	// --------------------------------------------------------------------------
+	
+	private static class Link<E> {
+
+		public Link<E> next;
+		public E obj;
+		
+		public Link(E obj){
+			this.obj = obj;
+		}
+		
+		public String toString(){
+			return "{" + obj.toString() + "}";
+		}
+		
+		public boolean equals(Object o){
+			return obj.equals(o);
+		}
+		
+	}
+	
+	// --------------------------------------------------------------------------
+}
+
+
+
+
+
+
+
+
+
+
+

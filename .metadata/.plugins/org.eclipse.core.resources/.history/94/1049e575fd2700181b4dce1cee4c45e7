@@ -1,0 +1,14 @@
+package jrJava.hashCodes;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//Object ref1 = new Thing(1, 1, 1);
+		//System.out.println(ref1.getClass());
+
+		Thing ref1 = new Thing(1, 2, 3);
+		Thing ref2 = new Thing(1, 2, 3);
+		System.out.println(ref1.equals(ref2));
+	}
+
+}

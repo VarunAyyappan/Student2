@@ -1,0 +1,17 @@
+package jrJava.linkedList4;
+
+public class Employee implements Comparable<Employee>{
+
+	private String firstName, lastName, title;
+	private int id, hiredYear, salary, dobYY, dobMM, dobDD, weight, height;
+	private char gender;
+
+	public Employee(String line) {
+		
+	}
+
+	public int compareTo(Employee o) {
+		return 0;
+	}
+
+}

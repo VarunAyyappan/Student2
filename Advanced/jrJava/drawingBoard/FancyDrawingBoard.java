@@ -1,0 +1,68 @@
+package jrJava.drawingBoard;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
+import java.awt.image.BufferedImage;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+
+public class FancyDrawingBoard extends JPanel {
+
+	private BufferedImage bImage;
+	private Graphics canvas;
+	private JFrame frame;
+	
+	
+	public FancyDrawingBoard(int width, int height){
+		frame = new JFrame();
+		frame.setBounds(200, 50, 0, 0); 
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+		
+		this.setPreferredSize(new Dimension(width, height)); 
+		frame.getContentPane().add(this);
+		
+		frame.pack();
+		frame.setVisible(true); 
+		
+		bImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+		canvas = bImage.getGraphics();
+		((Graphics2D)canvas).setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+		((Graphics2D)canvas).setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
+		
+		canvas.setColor(Color.red);
+		canvas.drawLine(100,  100,  500, 500); 
+	}
+	
+	
+	public Graphics getCanvas(){ return canvas; }
+	
+	
+	public void clear(){
+		canvas.setColor(Color.white);
+		canvas.fillRect(0, 0, bImage.getWidth(), bImage.getHeight()); 
+	}
+	
+	
+	public void paintComponent(Graphics g){
+		g.drawImage(bImage, 0, 0, null);
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+package jrJava.myArrayList_generics;
+
+public class Square {
+	private int x, y;
+	private int size;
+
+	public Square(int x, int y, int size) {
+		this.x = x;
+		this.y = y;
+		this.size = size;
+	}
+
+	public String toString() {
+		return "x ="+ x + " y=" + y + " size" + size + "  " + super.toString();
+	}
+
+	/* This isn't overriding the Object class equal's method.
+	public boolean equals(Square other) {
+		if(x==other.x && y==other.y && size==other.x)
+			return true;
+		else
+			return false;
+	}
+	*/
+	
+	public boolean equals(Object other) {
+		Square otherSquare = (Square) other;
+
+		if(x==otherSquare.x && y==otherSquare.y && size==otherSquare.x)
+			return true;
+		else
+			return false;
+	}
+}

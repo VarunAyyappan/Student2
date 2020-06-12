@@ -1,0 +1,50 @@
+package jrJava.tetris;
+
+import resources.SoundPlayer;
+
+public class SoundEffect {
+
+	private static SoundPlayer bgSound;
+	private static SoundPlayer bubblingSound;
+	private static SoundPlayer arrowSound;
+	private static SoundPlayer shiftSound;
+	private static SoundPlayer eerieSound;
+	
+	static {
+		bgSound = new SoundPlayer();
+		bgSound.load("jrJava/tetris/imperialMarch.wav");
+		bubblingSound = new SoundPlayer();
+		bubblingSound.load("jrJava/tetris/bubbling.wav");
+		arrowSound = new SoundPlayer();
+		arrowSound.load("jrJava/tetris/arrow.wav");
+		shiftSound = new SoundPlayer();
+		shiftSound.load("jrJava/tetris/shift.wav");
+		eerieSound = new SoundPlayer();
+		eerieSound.load("jrJava/tetris/eerie.wav");
+	}
+	
+	public static void startBgSound(){ bgSound.playLoop(); }
+	public static void stopBgSound(){ bgSound.stop(); }
+	
+	public static void moveDown(){ bubblingSound.play(); }
+	public static void shift(){ shiftSound.play(); }
+	public static void rotate(){ arrowSound.play(); }
+	public static void mirror(){ arrowSound.play(); }
+	public static void deleteRow(){ eerieSound.play(); }
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

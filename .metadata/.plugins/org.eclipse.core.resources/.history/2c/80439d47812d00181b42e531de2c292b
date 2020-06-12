@@ -1,0 +1,10 @@
+package jrJava.hashSet;
+
+public class Test {
+
+	public static void main(String[] args) {
+		SimpleHashSet<Member> set = new SimpleHashSet<Member>(5);
+		set.printAll();
+	}
+
+}

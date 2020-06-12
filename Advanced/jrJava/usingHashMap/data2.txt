@@ -1,0 +1,6 @@
+ID=101, English=80, History=90, Spanish=90, Math=80, PE=85
+ID=111, English=81, History=90, Spanish=96, Math=80, PE=85
+ID=173, English=82, History=90, Spanish=97, Math=80, PE=85
+ID=181, English=83, History=90, Spanish=98, Math=80, PE=85
+ID=191, English=84, History=90, Spanish=99, Math=80, PE=85
+ID=197, English=85, History=90, Spanish=90, Math=80, PE=85

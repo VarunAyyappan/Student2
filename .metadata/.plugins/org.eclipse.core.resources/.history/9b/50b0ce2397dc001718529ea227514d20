@@ -1,0 +1,26 @@
+package jrJava.linkedList;
+
+public class Link {
+
+	public Link next;
+	public int id;
+	public Object value;
+
+	public Link(int id, double value) {
+		this.id = id;
+		this.value = value;
+	}
+
+	public String toString() {
+		return "{" + id + ", " + value + "}";
+	}
+
+	public boolean equals(Object o) {
+		Link other = (Link)o;
+
+		if (id==other.id && value==other.value)
+			return true;
+		else
+			return false;
+	}
+}

@@ -1,0 +1,14 @@
+package jrJava.myArrayList_generics;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Square> list = new Square(1, 1, 1);
+
+		Square s1 = new Square(1, 1, 1);
+
+		Square s2 = new Square(1, 1, 1);
+	}
+
+}

@@ -1,0 +1,29 @@
+package jrJava.recursion2;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		System.out.println(fibonacci(3));
+	}
+	
+	public static int fibonacciRecursion(int n) {
+		
+	}
+	
+	public static int fibonacci(int n) {
+		if (n==1 || n==2) return 1;
+		
+		int first = 1;
+		int second = 1;
+		int third = 0;
+		
+		for(int i=3; i<=n; i++) {
+			third = second + first;
+			first = second;
+			second = third;
+		}
+		
+		return third;
+	}
+	
+}

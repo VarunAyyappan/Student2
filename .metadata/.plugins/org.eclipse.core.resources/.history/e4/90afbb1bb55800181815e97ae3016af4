@@ -1,0 +1,31 @@
+package jrJava.mouseAndMaze;
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.imageio.ImageIO;
+
+public class Maze {
+
+	private BufferedImage image;
+
+	public Maze() {
+		image = ImageIO.read(new File("jrJava/mouseAndMaze/maze.png"));
+	}
+
+	public void draw(int x, int y) {
+		
+	}
+
+	public boolean hitWall(int x, int y) {
+		return false;
+	}
+
+	public int getAlpha() { return 0; }
+
+	public int getRed() { return 0; }
+
+	public int getGreen() { return 0; }
+
+	public int getBlue() { return 0; }
+}

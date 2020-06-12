@@ -1,0 +1,12 @@
+package jrJava.myArrayList_generics;
+
+public class Square {
+	private int x, y;
+	private int size;
+
+	public Square(int x, int y, int size) {
+		this.x = x;
+		this.y = y;
+		this.size = sixe;
+	}
+}

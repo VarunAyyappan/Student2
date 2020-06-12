@@ -1,0 +1,16 @@
+package jrJava.aboutString;
+
+public class Practice2 {
+
+	public static void main(String[] args) {
+		
+		// length(), charAt(), substring(), etc.
+		
+		String text = "I love you guys.";
+		
+		int len =  text.length();
+		System.out.println(len);
+		
+	}
+
+}

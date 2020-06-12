@@ -1,0 +1,27 @@
+package jrJava.linkedList2;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		
+		LinkedList list = new LinkedList();
+		list.insert(110, 1.1);
+		list.insert(125, 1.25);
+		list.insert(106, 0.6);
+		list.insert(115, 1.15);
+		list.insert(112, 1.12);
+
+		System.out.println(list);
+		
+		list.remove(125);
+		System.out.println(list);
+		
+		list.remove(106);
+		System.out.println(list);
+		
+		list.remove(112);
+		System.out.println(list);
+	}
+
+}
+ 

@@ -1,0 +1,9 @@
+package jrJava.hashCodes;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Object red = new Thing(1, 1, 1);
+	}
+
+}

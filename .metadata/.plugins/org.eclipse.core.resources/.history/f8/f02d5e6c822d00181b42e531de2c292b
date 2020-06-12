@@ -1,0 +1,26 @@
+package jrJava.hashSet;
+
+public class Test {
+
+	public static void main(String[] args) {
+		SimpleHashSet<Member> set = new SimpleHashSet<Member>(5);
+		set.add(new Member(4, 44, 4444));
+		set.add(new Member(2, 22, 2222));
+		set.add(new Member(0, 0, 0));
+		set.add(new Member(7, 77, 7777));
+		set.add(new Member(12, 1212, 12121212));
+		set.printAll();
+		System.out.println();
+
+		Member tossedOut = set.add(set.add(new Member(7, 77, 7777)));
+		set.printAll();
+		System.out.println();
+		System.out.println(tossedOut);
+
+		Member searchKey = new Member(7);
+		Member found = set.getClass(searchKey);
+		System.out.println("");
+		System.out.println(found);
+	}
+
+}

@@ -1,0 +1,2 @@
+English=80, History=90, Spanish=90, Math=80, PE=85
+

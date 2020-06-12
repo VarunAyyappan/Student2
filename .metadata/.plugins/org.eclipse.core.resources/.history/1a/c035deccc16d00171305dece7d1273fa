@@ -1,0 +1,34 @@
+package jrJava.aboutString;
+
+public class Practice4 {
+
+	public static void main(String[] args) {
+
+		// substring(), replace(), etc.
+		
+		String text = "Half of of summer is gone";
+		
+		String portion1 = text.substring(8);
+		System.out.println(portion1);
+		
+		String portion2 = text.substring(8, 13);
+		System.out.println(portion2);
+		
+		System.out.println();
+		
+		String diary = "I was Alcatraz earlier today. They gave me a green wrist band with Prison ID. I totally felt at home.";
+		
+		int end = 0;
+		for(int i=0; i<diary.length(); i++) {
+			//try(){
+				
+			//}
+			
+			end = diary.indexOf(' ', i);
+			System.out.println(diary.subSequence(i, end));
+			i = end;
+		}
+
+	}
+
+}

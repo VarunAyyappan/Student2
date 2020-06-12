@@ -1,0 +1,23 @@
+package jrJava.aboutString;
+
+public class Practice6 {
+
+	public static void main(String[] args) {
+
+		// replace(), trim()
+		
+		String text = "Half of summer is gone!";
+		System.out.println(text);
+		
+		text = text.replaceAll("Half", "Quarter");
+		System.out.println(text);
+		
+		String text1 = "half of half of summer is gone!";
+		System.out.println(text);
+		
+		text1 = text.replaceAll("half", "Quarter");
+		System.out.println(text);
+
+	}
+
+}

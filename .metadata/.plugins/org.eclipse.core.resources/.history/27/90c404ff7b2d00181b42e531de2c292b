@@ -1,0 +1,30 @@
+package jrJava.hashSet;
+
+public class SimpleHashSet<E> {
+	public Object[] objs;
+
+	public SimpleHashSet(int size) {
+		objs = new Object[size];
+	}
+
+	public E add(E obj) {
+		Entry<E> new = new Entry<E>(obj); 
+	}
+
+	public E get(E searchKey) {
+		return null;
+	}
+
+	private static class Entry<E> {
+		public E obj;
+		public Entry<E> next;
+		
+		public Entry(E obj) {
+			obj = this.obj;
+		}
+
+		public String toString() {
+			return "[" + obj + "]";
+		}
+	}
+}

@@ -1,0 +1,26 @@
+package jrJava.linkedList4;
+
+public class Link<E extends Comparable<E>> {
+
+	private Link<E> next;
+	private E obj;
+
+	public Link(E obj){
+		this.obj = obj;
+	}
+	
+	public Link<E> getNext() { return next; }
+	public E getObject() { return obj; }
+	public void setNext(Link<E> next) { this.next = next; }
+	public void setObject(E obj) { this.obj = obj; }
+	
+	public String toString(){
+		return "{" + obj.toString() + "} ";
+	}
+
+	public boolean equals(Object o){
+		Link<E> other = (Link<E>) o;
+		return obj.equals(other.obj);
+	}
+
+}

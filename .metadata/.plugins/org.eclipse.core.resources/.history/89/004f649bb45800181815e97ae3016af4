@@ -1,0 +1,28 @@
+package jrJava.mouseAndMaze;
+
+import java.awt.image.BufferedImage;
+
+public class Maze {
+
+	private BufferedImage image;
+
+	public Maze() {
+		image = new BufferedImage();
+	}
+
+	public void draw(int x, int y) {
+		
+	}
+
+	public boolean hitWall(int x, int y) {
+		return false;
+	}
+
+	public int getAlpha() { return 0; }
+
+	public int getRed() { return 0; }
+
+	public int getGreen() { return 0; }
+
+	public int getBlue() { return 0; }
+}

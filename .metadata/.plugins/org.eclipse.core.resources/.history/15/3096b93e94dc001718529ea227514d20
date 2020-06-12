@@ -1,0 +1,21 @@
+package jrJava.linkedList;
+
+public class LinkedList {
+
+	private Link first;
+
+	public LinkedList() {
+		first = null;   // redundant
+	}
+
+	public LinkedList(Link first) {
+		this.first = first;
+	}
+
+	public boolean isEmpty() {
+		if(first==null)
+			return true;
+		else
+			return false;
+	}
+}

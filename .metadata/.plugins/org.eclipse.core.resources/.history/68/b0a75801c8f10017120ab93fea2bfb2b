@@ -1,0 +1,141 @@
+package jrJava.linkedList4;
+
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+public class LinkedList<E> {
+
+	
+	private Link<E> first;
+	
+	public LinkedList(){
+		first = null; // redundant
+	}
+	
+	
+	public Iterator<E> iterator(){
+		return new MyIterator();
+	}
+	
+	
+	public boolean isEmpty(){
+		return first==null;
+	}
+
+	public Link<E> getFirst(){
+		return first;
+	}
+	
+	public int size(){
+		int count = 0;
+		Link<E> current = first;
+		while(current!=null){
+			count++;
+			current = current.next;
+		}
+		return count;
+	}
+	
+	
+	public void insert(E obj){ // sorted by the id.
+		Link<E> toInsert = new Link(obj);
+		
+		Link<E> current = first;
+		Link<E> previous = null;
+		
+		while(current!=null && current.id<id){
+			previous = current;
+			current = current.next;
+		}
+		
+		// case 1: Empty (previous==null)
+		// case 2: Normal case (current.id>=id)
+		// case 3: End (current==null, previous!=null)
+		// case 4: First (current!=null, previous==null)
+		
+		if(previous==null){ // case 1 and case 4
+			if(first!=null) toInsert.next = first;// case 4
+			first = toInsert;
+		}
+		else { // case 2 and case 3
+			previous.next = toInsert;
+			toInsert.next = current;
+		}
+	}
+	
+	
+	public E removeFirst(){
+		Link<E> toRemove = first;
+		if(first!=null) first = first.next;
+		return toRemove.obj;
+	}
+	
+	
+	public String toString(){
+		
+		if(isEmpty()) return "{empty}";
+		
+		StringBuilder sb = new StringBuilder();
+		
+		Link<E> current = first;
+		while(current!=null){
+			sb.append(current.toString());
+			current = current.next;
+		}
+		
+		return sb.toString();
+	}
+	
+	
+	
+	private class MyIterator implements Iterator<E> {
+
+		private Link<E> current, previous;
+		
+		public void reset(){
+			current = null;
+			previous = null;
+		}
+		
+		public boolean hasNext(){
+			if(current==null && previous==null) return getFirst()!=null;
+			return current.next!=null;
+		}
+		
+		public E next(){
+			if(current==null && previous==null){
+				current = getFirst();
+			}
+			else {
+				previous = current;
+				current = current.next;
+			}
+			return current.obj;
+		}
+		
+		
+		public void remove(){
+			if(current==null) throw new NoSuchElementException();
+			
+			if(previous==null){
+				first = current.next;
+				reset();
+			}
+			else {
+				previous.next = current.next;
+				current = previous;
+			}
+		}
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+

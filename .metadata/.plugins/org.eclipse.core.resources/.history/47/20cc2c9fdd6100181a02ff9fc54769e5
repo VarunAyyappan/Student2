@@ -1,0 +1,47 @@
+package jrJava.mouseAndMaze_network;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+public class MessageReceiver implements Runnable {
+
+	private Mouse enemyMouse;
+	private BufferedReader br;
+	
+	
+	public MessageReceiver(InputStream is){
+		InputStreamReader isr = new InputStreamReader(is);
+		br = new BufferedReader(isr);
+	}
+	
+	
+	public void setEnemyMouse(Mouse enemyMouse){
+		this.enemyMouse = enemyMouse;
+	}
+	
+	
+	public void run(){
+		String msg;
+		try {
+			while(true){
+				msg = br.readLine();
+				if(enemyMouse!=null) enemyMouse.receiveData(msg);
+			}
+			
+		} catch (IOException e) {}
+		
+	} 
+	
+}
+
+
+
+
+
+
+
+
+
+

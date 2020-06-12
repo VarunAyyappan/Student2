@@ -1,0 +1,46 @@
+package jrJava.linkedList;
+
+public class LinkedList {
+
+	private Link first;
+
+	public LinkedList() {
+		first = null;   // redundant
+	}
+
+	public LinkedList(Link first) {
+		this.first = first;
+	}
+
+	public boolean isEmpty() {
+		if(first == null)
+			return true;
+		else
+			return false;
+	}
+
+	public Link getFirst() {
+		return first;
+	}
+
+	public void insertAtBeginning(int id, double value) {
+		ink temp = new Link(id, value);
+		temp.next = first;
+		first = temp;
+	}
+
+	public String toString() {
+		if(isEmpty())
+			return "{empty}";
+
+		StringBuilder sb = new StringBuilder();
+		Link current = first;
+
+		while(current!=null) {
+			sb.append(current.toString());
+			current = current.next;
+		}
+
+		return sb.toString();
+	}
+}

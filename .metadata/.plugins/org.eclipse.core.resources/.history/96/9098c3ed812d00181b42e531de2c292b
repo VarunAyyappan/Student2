@@ -1,0 +1,13 @@
+package jrJava.hashSet;
+
+public class Test {
+
+	public static void main(String[] args) {
+		SimpleHashSet<Member> set = new SimpleHashSet<Member>(5);
+		set.add(new Member(4, 44, 4444));
+		set.add(new Member(2, 22, 2222));
+		set.add(new Member(4, 444, 4444));
+		set.printAll();
+	}
+
+}

@@ -1,0 +1,22 @@
+package jrJava.recursion2;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		String sample = "I had a dinner.";
+		System.out.println(sample.length());
+		System.out.println("I had a dinner.".length());
+		
+		char first = sample.charAt(0);
+		System.out.println(first);
+		char last = sample.charAt(sample.length()-1);
+		System.out.println(last);
+	}
+	
+	public static boolean isPalindrome(String phrase) {
+		
+		
+		return false;
+	}
+
+}

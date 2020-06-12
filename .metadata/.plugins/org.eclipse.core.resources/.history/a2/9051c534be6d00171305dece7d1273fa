@@ -1,0 +1,32 @@
+package jrJava.aboutString;
+
+public class Practice3 {
+
+	public static void main(String[] args) {
+
+		// indexOf(), substring() , replace(), etc 
+		
+		String text = "Half of summer is gone!";
+		
+		// Doesn't work
+		//int index1 = text.indexOf('z');
+		//System.out.println(index1);
+		
+		int index1 = text.indexOf('o');
+		System.out.println(index1);
+		
+		System.out.println(text.indexOf('o', index1+1));
+		
+		String oddText = "Tomato tomato potato potatao";
+		
+		int i = 1;
+		int pos = -1;
+		while(true) {
+			pos = oddText.indexOf('0', pos+1);
+			
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package jrJava.mouseAndMaze;
+
+import java.awt.Graphics;
+
+public class Coordinator {
+
+	public static void main(String[] args) {
+		
+		JDrawingBoard board = new JDrawingBoard(500, 500);
+		Graphics g = board.getCanvas();
+
+		Mouse mouse = new Mouse(200, 200);
+		
+		while(true){
+			
+			mouse.move();
+			
+			board.clearCanvas();
+			mouse.draw(g);
+			board.repaint();
+			
+			try {
+				Thread.sleep(50);
+			} catch (InterruptedException e) { }
+		}
+	}
+
+}

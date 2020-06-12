@@ -1,0 +1,21 @@
+package jrJava.nestedInterface;
+
+import java.util.ArrayList;
+
+public class MarketWatcher {
+
+	// fields
+	// methods;
+
+	private ArrayList<Callback> callbacks;
+	
+	public MarketWatcher() {
+		callbacks = new ArrayList<Callback>;
+	}
+
+	public interface Callback {
+		void onReady();
+		void onStatusChange(String change);
+	}
+
+}

@@ -1,0 +1,12 @@
+package jrJava.generic;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Storage1 s1 = new Storage1();
+		s1.setData("necesito matarme");
+		String data = s1.getData();
+		System.out.println(data);
+	}
+
+}

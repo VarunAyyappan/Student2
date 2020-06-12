@@ -1,0 +1,203 @@
+import java.util.ArrayList;
+
+import java.awt.Color;
+
+import info.gridworld.actor.Actor;
+import info.gridworld.actor.Critter;
+import info.gridworld.actor.Bug;
+
+import info.gridworld.grid.Grid;
+import info.gridworld.grid.Location;
+
+public class Owl extends Critter
+{
+	public Owl()
+	{
+		super();
+		setColor(null);
+	}
+
+	public void act()
+	{
+		if (getGrid() == null)
+			return;
+		ArrayList<Location> moveLocs = getMoveLocations();
+		Location loc = selectMoveLocation(moveLocs);
+		makeMove(loc);
+	}
+
+	public ArrayList<Location> getMoveLocations()
+	{
+		ArrayList<Location> locs = new ArrayList<Location>();
+		if(addInnerEgg(locs)){}
+		else if(addOuterEgg(locs)){}
+		else if(addInnerLizard(locs)){}
+		else if(addOuterLizard(locs)){}
+		return locs;
+	}
+
+	public Location selectMoveLocation(ArrayList<Location> locs)
+	{
+		int n = locs.size();
+		if (n == 0)
+		{
+			Location loc = nearestActor();
+			if(loc == null)
+				return getLocation();
+
+			Location next = getLocation().getAdjacentLocation(getLocation().getDirectionToward(loc));
+			next = next.getAdjacentLocation(getLocation().getDirectionToward(loc));
+
+			if(getGrid().isValid(next))
+			{
+				Actor a = getGrid().get(next);
+				if(a == null)
+					return next;
+				else
+					return getLocation();
+			}
+			else
+				return getLocation();
+		}
+
+		int r = (int) (Math.random() * n);
+		return locs.get(r);
+	}
+
+	public void makeMove(Location loc)
+	{
+		if (loc == null)
+			removeSelfFromGrid();
+		else{
+			setDirection(getLocation().getDirectionToward(loc));
+			moveTo(loc);
+		}
+	}
+
+	public Location nearestActor(){
+		Grid gr = getGrid();
+		double min = Integer.MAX_VALUE;
+		Location minLoc = null;
+		int rows = gr.getNumRows();
+		int cols = gr.getNumCols();
+		int row = getLocation().getRow();
+		int col = getLocation().getCol();
+		
+		for(int i = 0;i             for(int j = 0;j                 Location next = new Location(i,j);
+		if(getGrid().isValid(next)){
+			Actor a = getGrid().get(next);
+			if(a != null && (a instanceof Egg || a instanceof Lizard)){
+				double dist = Math.sqrt((row - i)*(row - i) + (col - j)*(col - j));
+				if(dist < min){
+					min = dist;
+					minLoc = next;
+				}
+			}
+		}
+	}
+}
+
+        return minLoc;
+				}
+public boolean addInnerEgg(ArrayList locs){
+
+	Location loc = getLocation();
+	boolean hasOne = false;
+
+	for(int i = loc.getRow() - 1; i <= loc.getRow() + 1; i++ ){
+
+		for(int j = loc.getCol() - 1; j <= loc.getCol() + 1; j++){
+
+			if(i == j){
+				continue;
+			}
+
+			Location next = new Location(i,j);
+
+			if(getGrid().isValid(next)){
+		Actor a = getGrid().get(next);
+		if(a != null && a instanceof Egg) {
+		locs.add(next);
+		hasOne = true;
+		}
+		}
+		}
+		}
+		return hasOne;
+		}
+
+public boolean addOuterEgg(ArrayList locs){
+		Location loc = getLocation();
+		boolean hasOne = false;
+		for(int i = loc.getRow() - 2; i <= loc.getRow() + 2; i++ ){
+		for(int j = loc.getCol() - 2; j <= loc.getCol() + 2; j++){
+		if(!(Math.abs(i - loc.getRow()) == 2 || Math.abs(j - loc.getCol()) == 2)){
+		continue;
+		}
+		Location next = new Location(i,j);
+		if(getGrid().isValid(next)){
+		Actor a = getGrid().get(next);
+		if(a != null && a instanceof Egg) {
+		locs.add(next);
+		hasOne = true;
+		}
+		}
+		}
+		}
+		return hasOne;
+		}
+
+	public boolean addInnerLizard(ArrayList locs){
+		Location loc = getLocation();
+		boolean hasOne = false;
+		
+		for(int i = loc.getRow() - 1; i <= loc.getRow() + 1; i++ ){
+			for(int j = loc.getCol() - 1; j <= loc.getCol() + 1; j++){
+				if(i != j)
+				{
+					Location next = new Location(i,j);
+					
+					if(getGrid().isValid(next))
+					{
+						Actor a = getGrid().get(next);
+
+						if(a != null && a instanceof Lizard) 
+						{
+							locs.add(next);
+							hasOne = true;
+						}
+					}
+				}
+			}
+		}
+		return hasOne;
+	}
+
+	public boolean addOuterLizard(ArrayList locs)
+	{
+		Location loc = getLocation();
+		boolean hasOne = false;
+		
+		for(int i = loc.getRow() - 2; i <= loc.getRow() + 2; i++ )
+		{
+			for(int j = loc.getCol() - 2; j <= loc.getCol() + 2; j++)
+			{
+				if(Math.abs(i - loc.getRow()) == 2 || Math.abs(j - loc.getCol()) == 2)
+				{
+					Location next = new Location(i,j);
+					if(getGrid().isValid(next))
+					{
+						Actor a = getGrid().get(next);
+						if(a != null && a instanceof Lizard)
+						{
+							locs.add(next);
+							hasOne = true;
+						}
+					}
+				}
+			}
+		}
+			
+		return hasOne;
+	}
+}

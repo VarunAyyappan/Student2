@@ -1,0 +1,1584 @@
+C:\RepresentativeList>java RepresentativeList
+
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 2
+
+
+The list printed in order by birth day
+
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 5
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 6
+
+Number of nodes = 0
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 7
+
+
+The list printed in reverse order by birth day
+
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 8
+
+
+The list printed in order by last name
+
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 1
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 2
+
+
+The list printed in order by birth day
+
+  1  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+  2  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+  3  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+  4  New York 1          Lee Zeldin                  1  30  1980  Republican      2016
+  5  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+  6  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+  7  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+  8  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+  9  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+ 10  California 21       David Valadao               4  14  1977  Republican      2012
+ 11  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 12  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 13  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 14  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+ 15  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 16  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 17  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 18  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+ 19  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 20  New York 23         Tom Reed                   11  18  1971  Republican      2010
+ 21  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 22  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 23  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+ 24  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 25  Illinois 13         Rodney Davis                1   5  1970  Republican      2014
+ 26  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 27  Iowa 3              David Young                 5  11  1968  Republican      2014
+ 28  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 29  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 30  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+ 31  California 25       Steve Knight               12  17  1966  Republican      2014
+ 32  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 33  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 34  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 35  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 36  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 37  California 7        Ami Bera                    3   2  1965  Democrat        2012
+ 38  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 39  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+ 40  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+ 41  Nebraska 2          Don Bacon                   8  16  1963  Republican      2016
+ 42  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 43  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 44  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 45  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 46  New York 24         John Katko                 11   9  1962  Republican      2014
+ 47  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 48  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 49  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 50  California 45       Mimi Walters                5  14  1962  Republican      2014
+ 51  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 52  Illinois 6          Peter Roskam                9  13  1961  Republican      2006
+ 53  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 54  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 55  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+ 56  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 57  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 58  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 59  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 60  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 61  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 62  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 63  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 64  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 65  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 66  Nevada 3            Jacky Rosen                 8   2  1957  Democrat        2016
+ 67  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 68  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 69  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 70  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 71  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 72  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 73  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 74  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 75  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 76  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 77  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+ 78  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 79  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 80  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 81  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 82  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 83  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 84  Ohio 1              Steve Chabot                1  22  1953  Republican      2010
+ 85  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 86  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 87  New York 19         John Faso                   8  25  1952  Republican      2016
+ 88  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 89  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 90  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 91  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 92  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 93  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 94  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 95  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 96  Texas 21            Lamar Smith                11  19  1947  Republican      1986
+ 97  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+ 98  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+ 99  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+100  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+101  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+102  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+103  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+104  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 6
+
+Number of nodes = 104
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 7
+
+
+The list printed in reverse order by birth day
+
+  1  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+  2  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+  3  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+  4  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+  5  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+  6  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+  7  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+  8  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+  9  Texas 21            Lamar Smith                11  19  1947  Republican      1986
+ 10  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 11  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 12  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 13  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 14  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 15  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 16  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 17  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 18  New York 19         John Faso                   8  25  1952  Republican      2016
+ 19  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 20  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 21  Ohio 1              Steve Chabot                1  22  1953  Republican      2010
+ 22  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 23  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 24  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 25  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 26  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 27  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 28  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+ 29  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 30  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 31  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 32  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 33  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 34  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 35  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 36  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 37  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 38  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 39  Nevada 3            Jacky Rosen                 8   2  1957  Democrat        2016
+ 40  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 41  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 42  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 43  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 44  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 45  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 46  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 47  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 48  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 49  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 50  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+ 51  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 52  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 53  Illinois 6          Peter Roskam                9  13  1961  Republican      2006
+ 54  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 55  California 45       Mimi Walters                5  14  1962  Republican      2014
+ 56  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 57  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 58  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 59  New York 24         John Katko                 11   9  1962  Republican      2014
+ 60  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 61  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 62  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 63  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 64  Nebraska 2          Don Bacon                   8  16  1963  Republican      2016
+ 65  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+ 66  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+ 67  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 68  California 7        Ami Bera                    3   2  1965  Democrat        2012
+ 69  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 70  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 71  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 72  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 73  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 74  California 25       Steve Knight               12  17  1966  Republican      2014
+ 75  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+ 76  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 77  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 78  Iowa 3              David Young                 5  11  1968  Republican      2014
+ 79  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 80  Illinois 13         Rodney Davis                1   5  1970  Republican      2014
+ 81  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 82  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+ 83  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 84  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 85  New York 23         Tom Reed                   11  18  1971  Republican      2010
+ 86  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 87  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+ 88  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 89  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 90  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 91  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+ 92  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 93  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 94  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 95  California 21       David Valadao               4  14  1977  Republican      2012
+ 96  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+ 97  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+ 98  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+ 99  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+100  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+101  New York 1          Lee Zeldin                  1  30  1980  Republican      2016
+102  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+103  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+104  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 8
+
+
+The list printed in order by last name
+
+  1  Nebraska 2          Don Bacon                   8  16  1963  Republican      2016
+  2  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+  3  California 7        Ami Bera                    3   2  1965  Democrat        2012
+  4  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+  5  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+  6  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+  7  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+  8  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+  9  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+ 10  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 11  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 12  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 13  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 14  Ohio 1              Steve Chabot                1  22  1953  Republican      2010
+ 15  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 16  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 17  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 18  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 19  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 20  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+ 21  Illinois 13         Rodney Davis                1   5  1970  Republican      2014
+ 22  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+ 23  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 24  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 25  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 26  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 27  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 28  New York 19         John Faso                   8  25  1952  Republican      2016
+ 29  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 30  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+ 31  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 32  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 33  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 34  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 35  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 36  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 37  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 38  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 39  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+ 40  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 41  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 42  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 43  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 44  New York 24         John Katko                 11   9  1962  Republican      2014
+ 45  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 46  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+ 47  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 48  California 25       Steve Knight               12  17  1966  Republican      2014
+ 49  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 50  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 51  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 52  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+ 53  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 54  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 55  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 56  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 57  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+ 58  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 59  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 60  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 61  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+ 62  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+ 63  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 64  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+ 65  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 66  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+ 67  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 68  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+ 69  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 70  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 71  New York 23         Tom Reed                   11  18  1971  Republican      2010
+ 72  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 73  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 74  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 75  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+ 76  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 77  Nevada 3            Jacky Rosen                 8   2  1957  Democrat        2016
+ 78  Illinois 6          Peter Roskam                9  13  1961  Republican      2006
+ 79  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 80  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 81  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 82  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 83  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 84  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 85  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 86  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 87  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 88  Texas 21            Lamar Smith                11  19  1947  Republican      1986
+ 89  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 90  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+ 91  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 92  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 93  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 94  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 95  California 21       David Valadao               4  14  1977  Republican      2012
+ 96  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 97  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 98  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 99  California 45       Mimi Walters                5  14  1962  Republican      2014
+100  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+101  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+102  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+103  Iowa 3              David Young                 5  11  1968  Republican      2014
+104  New York 1          Lee Zeldin                  1  30  1980  Republican      2016
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 3
+
+Enter a Representative's last name to be searched (Q to quit): davis
+
+  Illinois 13         Rodney Davis                1   5  1970  Republican      2014
+
+Enter a Representative's last name to be searched (Q to quit): chabot
+
+  Ohio 1              Steve Chabot                1  22  1953  Republican      2010
+
+Enter a Representative's last name to be searched (Q to quit): bacon
+
+  Nebraska 2          Don Bacon                   8  16  1963  Republican      2016
+
+Enter a Representative's last name to be searched (Q to quit): smith
+
+  Texas 21            Lamar Smith                11  19  1947  Republican      1986
+
+Enter a Representative's last name to be searched (Q to quit): zeldin
+
+  New York 1          Lee Zeldin                  1  30  1980  Republican      2016
+
+Enter a Representative's last name to be searched (Q to quit): young
+
+  Iowa 3              David Young                 5  11  1968  Republican      2014
+
+Enter a Representative's last name to be searched (Q to quit): fred
+
+fred could not be found.
+
+Enter a Representative's last name to be searched (Q to quit): jones
+
+jones could not be found.
+
+Enter a Representative's last name to be searched (Q to quit): q
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 4
+
+Enter a Representative's last name to delete (Q to quit): davis
+
+davis was deleted.
+
+Enter a Representative's last name to delete (Q to quit): chabot
+
+chabot was deleted.
+
+Enter a Representative's last name to delete (Q to quit): bacon
+
+bacon was deleted.
+
+Enter a Representative's last name to delete (Q to quit): smith
+
+smith was deleted.
+
+Enter a Representative's last name to delete (Q to quit): zeldin
+
+zeldin was deleted.
+
+Enter a Representative's last name to delete (Q to quit): smith
+
+smith could not be found, so was not deleted.
+
+Enter a Representative's last name to delete (Q to quit): jones
+
+jones could not be found, so was not deleted.
+
+Enter a Representative's last name to delete (Q to quit): reed
+
+reed was deleted.
+
+Enter a Representative's last name to delete (Q to quit): rosen
+
+rosen was deleted.
+
+Enter a Representative's last name to delete (Q to quit): roskam
+
+roskam was deleted.
+
+Enter a Representative's last name to delete (Q to quit): q
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 6
+
+Number of nodes = 96
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 2
+
+
+The list printed in order by birth day
+
+  1  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+  2  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+  3  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+  4  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+  5  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+  6  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+  7  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+  8  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+  9  California 21       David Valadao               4  14  1977  Republican      2012
+ 10  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 11  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 12  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 13  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+ 14  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 15  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 16  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 17  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+ 18  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 19  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 20  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 21  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+ 22  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 23  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 24  Iowa 3              David Young                 5  11  1968  Republican      2014
+ 25  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 26  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 27  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+ 28  California 25       Steve Knight               12  17  1966  Republican      2014
+ 29  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 30  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 31  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 32  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 33  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 34  California 7        Ami Bera                    3   2  1965  Democrat        2012
+ 35  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 36  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+ 37  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+ 38  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 39  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 40  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 41  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 42  New York 24         John Katko                 11   9  1962  Republican      2014
+ 43  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 44  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 45  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 46  California 45       Mimi Walters                5  14  1962  Republican      2014
+ 47  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 48  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 49  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 50  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+ 51  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 52  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 53  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 54  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 55  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 56  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 57  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 58  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 59  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 60  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 61  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 62  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 63  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 64  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 65  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 66  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 67  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 68  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 69  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 70  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 71  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+ 72  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 73  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 74  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 75  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 76  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 77  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 78  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 79  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 80  New York 19         John Faso                   8  25  1952  Republican      2016
+ 81  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 82  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 83  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 84  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 85  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 86  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 87  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 88  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 89  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+ 90  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+ 91  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+ 92  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+ 93  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+ 94  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+ 95  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+ 96  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 7
+
+
+The list printed in reverse order by birth day
+
+  1  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+  2  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+  3  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+  4  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+  5  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+  6  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+  7  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+  8  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+  9  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 10  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 11  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 12  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 13  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 14  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 15  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 16  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 17  New York 19         John Faso                   8  25  1952  Republican      2016
+ 18  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 19  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 20  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 21  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 22  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 23  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 24  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 25  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 26  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+ 27  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 28  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 29  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 30  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 31  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 32  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 33  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 34  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 35  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 36  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 37  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 38  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 39  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 40  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 41  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 42  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 43  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 44  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 45  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 46  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 47  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+ 48  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 49  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 50  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 51  California 45       Mimi Walters                5  14  1962  Republican      2014
+ 52  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 53  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 54  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 55  New York 24         John Katko                 11   9  1962  Republican      2014
+ 56  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 57  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 58  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 59  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 60  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+ 61  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+ 62  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 63  California 7        Ami Bera                    3   2  1965  Democrat        2012
+ 64  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 65  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 66  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 67  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 68  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 69  California 25       Steve Knight               12  17  1966  Republican      2014
+ 70  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+ 71  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 72  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 73  Iowa 3              David Young                 5  11  1968  Republican      2014
+ 74  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 75  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 76  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+ 77  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 78  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 79  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 80  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+ 81  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 82  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 83  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 84  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+ 85  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 86  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 87  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 88  California 21       David Valadao               4  14  1977  Republican      2012
+ 89  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+ 90  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+ 91  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+ 92  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+ 93  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+ 94  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+ 95  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+ 96  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 8
+
+
+The list printed in order by last name
+
+  1  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+  2  California 7        Ami Bera                    3   2  1965  Democrat        2012
+  3  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+  4  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+  5  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+  6  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+  7  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+  8  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+  9  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 10  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 11  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 12  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 13  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 14  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 15  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 16  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 17  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 18  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+ 19  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+ 20  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 21  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 22  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 23  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 24  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 25  New York 19         John Faso                   8  25  1952  Republican      2016
+ 26  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 27  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+ 28  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 29  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 30  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 31  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 32  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 33  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 34  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 35  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 36  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+ 37  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 38  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 39  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 40  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 41  New York 24         John Katko                 11   9  1962  Republican      2014
+ 42  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 43  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+ 44  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 45  California 25       Steve Knight               12  17  1966  Republican      2014
+ 46  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 47  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 48  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 49  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+ 50  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 51  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 52  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 53  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 54  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+ 55  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 56  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 57  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 58  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+ 59  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+ 60  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 61  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+ 62  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 63  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+ 64  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 65  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+ 66  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 67  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 68  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 69  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 70  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 71  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+ 72  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 73  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 74  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 75  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 76  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 77  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 78  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 79  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 80  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 81  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 82  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 83  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+ 84  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 85  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 86  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 87  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 88  California 21       David Valadao               4  14  1977  Republican      2012
+ 89  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 90  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 91  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 92  California 45       Mimi Walters                5  14  1962  Republican      2014
+ 93  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+ 94  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+ 95  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+ 96  Iowa 3              David Young                 5  11  1968  Republican      2014
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 5
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 2
+
+
+The list printed in order by birth day
+
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 1
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 2
+
+
+The list printed in order by birth day
+
+  1  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+  2  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+  3  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+  4  New York 1          Lee Zeldin                  1  30  1980  Republican      2016
+  5  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+  6  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+  7  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+  8  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+  9  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+ 10  California 21       David Valadao               4  14  1977  Republican      2012
+ 11  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 12  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 13  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 14  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+ 15  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 16  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 17  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 18  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+ 19  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 20  New York 23         Tom Reed                   11  18  1971  Republican      2010
+ 21  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 22  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 23  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+ 24  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 25  Illinois 13         Rodney Davis                1   5  1970  Republican      2014
+ 26  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 27  Iowa 3              David Young                 5  11  1968  Republican      2014
+ 28  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 29  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 30  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+ 31  California 25       Steve Knight               12  17  1966  Republican      2014
+ 32  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 33  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 34  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 35  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 36  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 37  California 7        Ami Bera                    3   2  1965  Democrat        2012
+ 38  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 39  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+ 40  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+ 41  Nebraska 2          Don Bacon                   8  16  1963  Republican      2016
+ 42  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 43  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 44  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 45  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 46  New York 24         John Katko                 11   9  1962  Republican      2014
+ 47  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 48  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 49  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 50  California 45       Mimi Walters                5  14  1962  Republican      2014
+ 51  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 52  Illinois 6          Peter Roskam                9  13  1961  Republican      2006
+ 53  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 54  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 55  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+ 56  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 57  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 58  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 59  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 60  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 61  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 62  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 63  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 64  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 65  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 66  Nevada 3            Jacky Rosen                 8   2  1957  Democrat        2016
+ 67  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 68  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 69  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 70  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 71  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 72  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 73  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 74  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 75  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 76  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 77  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+ 78  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 79  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 80  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 81  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 82  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 83  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 84  Ohio 1              Steve Chabot                1  22  1953  Republican      2010
+ 85  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 86  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 87  New York 19         John Faso                   8  25  1952  Republican      2016
+ 88  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 89  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 90  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 91  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 92  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 93  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 94  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 95  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 96  Texas 21            Lamar Smith                11  19  1947  Republican      1986
+ 97  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+ 98  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+ 99  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+100  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+101  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+102  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+103  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+104  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 5
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 6
+
+Number of nodes = 0
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 1
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 2
+
+
+The list printed in order by birth day
+
+  1  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+  2  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+  3  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+  4  New York 1          Lee Zeldin                  1  30  1980  Republican      2016
+  5  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+  6  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+  7  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+  8  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+  9  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+ 10  California 21       David Valadao               4  14  1977  Republican      2012
+ 11  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 12  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 13  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 14  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+ 15  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 16  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 17  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 18  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+ 19  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 20  New York 23         Tom Reed                   11  18  1971  Republican      2010
+ 21  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 22  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 23  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+ 24  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 25  Illinois 13         Rodney Davis                1   5  1970  Republican      2014
+ 26  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 27  Iowa 3              David Young                 5  11  1968  Republican      2014
+ 28  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 29  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 30  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+ 31  California 25       Steve Knight               12  17  1966  Republican      2014
+ 32  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 33  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 34  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 35  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 36  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 37  California 7        Ami Bera                    3   2  1965  Democrat        2012
+ 38  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 39  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+ 40  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+ 41  Nebraska 2          Don Bacon                   8  16  1963  Republican      2016
+ 42  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 43  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 44  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 45  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 46  New York 24         John Katko                 11   9  1962  Republican      2014
+ 47  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 48  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 49  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 50  California 45       Mimi Walters                5  14  1962  Republican      2014
+ 51  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 52  Illinois 6          Peter Roskam                9  13  1961  Republican      2006
+ 53  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 54  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 55  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+ 56  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 57  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 58  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 59  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 60  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 61  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 62  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 63  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 64  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 65  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 66  Nevada 3            Jacky Rosen                 8   2  1957  Democrat        2016
+ 67  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 68  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 69  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 70  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 71  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 72  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 73  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 74  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 75  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 76  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 77  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+ 78  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 79  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 80  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 81  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 82  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 83  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 84  Ohio 1              Steve Chabot                1  22  1953  Republican      2010
+ 85  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 86  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 87  New York 19         John Faso                   8  25  1952  Republican      2016
+ 88  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 89  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 90  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 91  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 92  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 93  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 94  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 95  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 96  Texas 21            Lamar Smith                11  19  1947  Republican      1986
+ 97  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+ 98  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+ 99  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+100  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+101  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+102  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+103  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+104  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 6
+
+Number of nodes = 104
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 7
+
+
+The list printed in reverse order by birth day
+
+  1  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+  2  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+  3  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+  4  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+  5  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+  6  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+  7  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+  8  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+  9  Texas 21            Lamar Smith                11  19  1947  Republican      1986
+ 10  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 11  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 12  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 13  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 14  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 15  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 16  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 17  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 18  New York 19         John Faso                   8  25  1952  Republican      2016
+ 19  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 20  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 21  Ohio 1              Steve Chabot                1  22  1953  Republican      2010
+ 22  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 23  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 24  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 25  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 26  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 27  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 28  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+ 29  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 30  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 31  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 32  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 33  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 34  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 35  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 36  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 37  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 38  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 39  Nevada 3            Jacky Rosen                 8   2  1957  Democrat        2016
+ 40  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 41  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 42  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 43  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 44  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 45  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 46  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 47  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 48  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 49  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 50  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+ 51  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 52  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 53  Illinois 6          Peter Roskam                9  13  1961  Republican      2006
+ 54  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 55  California 45       Mimi Walters                5  14  1962  Republican      2014
+ 56  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 57  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 58  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 59  New York 24         John Katko                 11   9  1962  Republican      2014
+ 60  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 61  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 62  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 63  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 64  Nebraska 2          Don Bacon                   8  16  1963  Republican      2016
+ 65  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+ 66  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+ 67  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 68  California 7        Ami Bera                    3   2  1965  Democrat        2012
+ 69  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 70  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 71  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 72  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 73  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 74  California 25       Steve Knight               12  17  1966  Republican      2014
+ 75  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+ 76  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 77  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 78  Iowa 3              David Young                 5  11  1968  Republican      2014
+ 79  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 80  Illinois 13         Rodney Davis                1   5  1970  Republican      2014
+ 81  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 82  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+ 83  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 84  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 85  New York 23         Tom Reed                   11  18  1971  Republican      2010
+ 86  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 87  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+ 88  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 89  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 90  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 91  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+ 92  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 93  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 94  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 95  California 21       David Valadao               4  14  1977  Republican      2012
+ 96  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+ 97  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+ 98  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+ 99  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+100  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+101  New York 1          Lee Zeldin                  1  30  1980  Republican      2016
+102  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+103  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+104  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> 8
+
+
+The list printed in order by last name
+
+  1  Nebraska 2          Don Bacon                   8  16  1963  Republican      2016
+  2  Kentucky 6          Andy Barr                   7  24  1973  Republican      2012
+  3  California 7        Ami Bera                    3   2  1965  Democrat        2012
+  4  Michigan 1          Jack Bergman                2   2  1947  Republican      2016
+  5  Washington 3        Jaime Herrera Beutler      11   3  1978  Republican      2010
+  6  Michigan 8          Mike Bishop                 3  18  1967  Republican      2014
+  7  Iowa 1              Rod Blum                    4  26  1955  Republican      2014
+  8  Illinois 12         Mike Bost                  12  30  1960  Republican      2014
+  9  Virginia 7          Dave Brat                   7  27  1964  Republican      2014
+ 10  Florida 16          Vern Buchanan               5   8  1951  Republican      2006
+ 11  North Carolina 13   Ted Budd                   10  21  1971  Republican      2016
+ 12  California 24       Salud Carbajal             11  18  1964  Democrat        2016
+ 13  Pennsylvania 8      Matt Cartwright             5   1  1961  Democrat        2012
+ 14  Ohio 1              Steve Chabot                1  22  1953  Republican      2010
+ 15  Colorado 6          Mike Coffman                3  19  1955  Republican      2008
+ 16  Virginia 10         Barbara Comstock            6  30  1959  Republican      2014
+ 17  Pennsylvania 6      Ryan Costello               9   7  1976  Republican      2014
+ 18  Florida 13          Charlie Crist               7  24  1956  Democrat        2016
+ 19  Texas 7             John Culberson              8  24  1956  Republican      2000
+ 20  Florida 26          Carlos Curbelo              3   1  1980  Republican      2014
+ 21  Illinois 13         Rodney Davis                1   5  1970  Republican      2014
+ 22  Florida 6           Ron DeSantis                9  14  1978  Republican      2012
+ 23  California 10       Jeff Denham                 7  29  1967  Republican      2010
+ 24  Pennsylvania 7      Charlie Dent                5  24  1960  Republican      2004
+ 25  New York 11         Dan Donovan                11   6  1956  Republican      2015
+ 26  Wisconsin 7         Sean Duffy                 10   3  1971  Republican      2010
+ 27  Connecticut 5       Elizabeth Esty              8  25  1959  Democrat        2012
+ 28  New York 19         John Faso                   8  25  1952  Republican      2016
+ 29  Pennsylvania 1      Brian Fitzpatrick          12  17  1973  Republican      2016
+ 30  New Jersey 11       Rodney Frelinghuysen        4  29  1946  Republican      1994
+ 31  Virginia 5          Tom Garrett                 3  27  1972  Republican      2016
+ 32  New Jersey 5        Josh Gottheimer             3   8  1975  Democrat        2016
+ 33  Wisconsin 6         Glenn Grothman              7   3  1955  Republican      2014
+ 34  Georgia 6           Karen Handel                4  18  1962  Republican      2017
+ 35  Arkansas 2          French Hill                12   5  1956  Republican      2014
+ 36  North Carolina 2    George Holding              4  17  1968  Republican      2012
+ 37  Illinois 14         Randy Hultgren              3   1  1966  Republican      2010
+ 38  California 50       Duncan D. Hunter           11   7  1976  Republican      2008
+ 39  Texas 23            Will Hurd                   8  19  1977  Republican      2014
+ 40  California 49       Darrell Issa               11   1  1953  Republican      2000
+ 41  West Virginia 3     Evan Jenkins                9  12  1960  Republican      2014
+ 42  Kansas 2            Lynn Jenkins                6  10  1963  Republican      2008
+ 43  Ohio 14             David Joyce                 3  17  1957  Republican      2012
+ 44  New York 24         John Katko                 11   9  1962  Republican      2014
+ 45  Pennsylvania 16     Mike Kelly                  5  10  1948  Republican      2010
+ 46  Nevada 4            Ruben Kihuen                4  25  1980  Democrat        2016
+ 47  Wisconsin 3         Ron Kind                    3  16  1963  Democrat        1996
+ 48  California 25       Steve Knight               12  17  1966  Republican      2014
+ 49  New Hampshire 2     Ann McLane Kuster           9   5  1956  Democrat        2012
+ 50  New Jersey 7        Leonard Lance               6  25  1952  Republican      2008
+ 51  Minnesota 2         Jason Lewis                 9  23  1955  Republican      2016
+ 52  New Jersey 2        Frank LoBiondo              5  12  1946  Republican      1994
+ 53  Iowa 2              Dave Loebsack              12  23  1952  Democrat        2006
+ 54  Utah 4              Mia Love                   12   6  1975  Republican      2014
+ 55  New Jersey 3        Tom MacArthur              10  16  1960  Republican      2014
+ 56  New York 18         Sean Patrick Maloney        7  30  1966  Democrat        2012
+ 57  Florida 18          Brian Mast                  7  10  1980  Republican      2016
+ 58  California 4        Tom McClintock              7  10  1956  Republican      2008
+ 59  Arizona 2           Martha McSally              3  22  1966  Republican      2014
+ 60  Pennsylvania 5      Pat Meehan                 10  20  1955  Republican      2010
+ 61  Florida 7           Stephanie Murphy            9  16  1978  Democrat        2016
+ 62  Minnesota 8         Rick Nolan                 12  17  1943  Democrat        2012
+ 63  South Carolina 5    Ralph Norman                6  20  1953  Republican      2017
+ 64  Arizona 1           Tom O'Halleran              1  24  1946  Democrat        2016
+ 65  Minnesota 3         Erik Paulsen                5  14  1965  Republican      2008
+ 66  New Mexico 2        Steve Pearce                8  24  1947  Republican      2010
+ 67  Pennsylvania 10     Scott Perry                 5  27  1962  Republican      2012
+ 68  Minnesota 7         Collin Peterson             6  29  1944  Democrat        1990
+ 69  North Carolina 9    Robert Pittenger            8  15  1948  Republican      2012
+ 70  Maine 2             Bruce Poliquin             11   1  1953  Republican      2014
+ 71  New York 23         Tom Reed                   11  18  1971  Republican      2010
+ 72  Washington 8        Dave Reichert               8  29  1950  Republican      2004
+ 73  Ohio 16             Jim Renacci                12   3  1958  Republican      2010
+ 74  Washington 5        Cathy McMorris Rodgers      5  22  1969  Republican      2004
+ 75  California 48       Dana Rohrabacher            6  21  1947  Republican      1988
+ 76  Florida 27          Ileana Ros-Lehtinen         7  15  1952  Republican      1989
+ 77  Nevada 3            Jacky Rosen                 8   2  1957  Democrat        2016
+ 78  Illinois 6          Peter Roskam                9  13  1961  Republican      2006
+ 79  Florida 15          Dennis A. Ross             10  18  1959  Republican      2010
+ 80  Pennsylvania 17     Keith Rothfus               5  25  1962  Republican      2012
+ 81  California 39       Ed Royce                   10  12  1951  Republican      1992
+ 82  Oklahoma 5          Steve Russell               5  25  1963  Republican      2014
+ 83  Wisconsin 1         Paul Ryan                   1  29  1970  Republican      1998
+ 84  South Carolina 1    Mark Sanford                5  28  1960  Republican      2013
+ 85  Texas 32            Pete Sessions               3  22  1955  Republican      1996
+ 86  New Hampshire 1     Carol Shea-Porter          12   2  1952  Democrat        2016
+ 87  Arizona 9           Kyrsten Sinema              7  12  1976  Democrat        2012
+ 88  Texas 21            Lamar Smith                11  19  1947  Republican      1986
+ 89  Ohio 15             Steve Stivers               3  24  1965  Republican      2010
+ 90  Virginia 2          Scott Taylor                6  27  1979  Republican      2016
+ 91  New York 22         Claudia Tenney              2   4  1961  Republican      2016
+ 92  Michigan 11         Dave Trott                 10  16  1960  Republican      2014
+ 93  Ohio 10             Mike Turner                 1  11  1960  Republican      2002
+ 94  Michigan 6          Fred Upton                  4  23  1953  Republican      1986
+ 95  California 21       David Valadao               4  14  1977  Republican      2012
+ 96  Missouri 2          Ann Wagner                  9  13  1962  Republican      2012
+ 97  Michigan 7          Tim Walberg                 4  12  1951  Republican      2010
+ 98  Indiana 2           Jackie Walorski             8  13  1963  Republican      2012
+ 99  California 45       Mimi Walters                5  14  1962  Republican      2014
+100  Minnesota 1         Tim Walz                    4   6  1964  Democrat        2006
+101  Georgia 7           Rob Woodall                 2  11  1970  Republican      2010
+102  Kansas 3            Kevin Yoder                 1   8  1976  Republican      2010
+103  Iowa 3              David Young                 5  11  1968  Republican      2014
+104  New York 1          Lee Zeldin                  1  30  1980  Republican      2016
+
+
+Linked List algorithm menu
+
+(1) Read data from file
+(2) Print list ordered by birth day
+(3) Search list by last name
+(4) Delete from list by last name
+(5) Clear entire list
+(6) Count nodes in list
+(7) Print list backwards by birth day
+(8) Print list ordered by last name
+(Q) Quit
+
+Choice ---> q
+
+
+
+C:\RepresentativeList>

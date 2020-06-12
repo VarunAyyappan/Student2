@@ -1,0 +1,20 @@
+package jrJava.myArrayList_generics;
+
+public class Square {
+	private int x, y;
+	private int size;
+
+	public Square(int x, int y, int size) {
+		this.x = x;
+		this.y = y;
+		this.size = size;
+	}
+
+	public String toString() {
+		return "x ="+ x + " y=" + y + " size" + size + "  " + super.toString();
+	}
+	
+	public boolean equals() {
+		return false;
+	}
+}

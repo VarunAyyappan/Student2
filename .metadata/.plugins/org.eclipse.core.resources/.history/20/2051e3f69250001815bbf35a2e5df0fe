@@ -1,0 +1,37 @@
+package jrJava.tetris;
+
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+
+public class Graveyard {
+
+	private static BufferedImage image;
+	private static int blockSize = TetrisObject.BLOCK_SIZE;
+	
+	
+	static {
+		image = new BufferedImage(Coordinator.SCREEN_WIDTH, Coordinator.SCREEN_HEIGHT, BufferedImage.TYPE_INT_ARGB);
+		
+		int j, k;
+		for(j=0; j<image.getWidth(); j++){
+			for(k=0; k<image.getHeight(); k++){
+				
+				if(j<blockSize || j>image.getWidth()-blockSize || k<blockSize || k>image.getHeight()-blockSize) image.setRGB(j, k, 0xfffefefe);
+				else if(j==blockSize || j==image.getWidth()-blockSize || k==blockSize || k==image.getHeight()-blockSize) image.setRGB(j, k, 0xff000000);
+				else image.setRGB(j,  k,  0xffffffff); 
+			}
+		}
+		
+	}
+	
+	
+	public static void bury(Image tetrisImage, int x, int y){
+		image.getGraphics().drawImage(tetrisImage, x, y, null);
+	}
+	
+	
+	public static void draw(Graphics g){
+		g.drawImage(image, 0, 0, null);
+	}
+}

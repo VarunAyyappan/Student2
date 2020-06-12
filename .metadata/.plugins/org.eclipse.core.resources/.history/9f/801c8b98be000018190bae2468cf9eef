@@ -1,0 +1,18 @@
+package jrJava.tree_obj;
+
+public class Node<E> {
+
+	public E obj;
+
+	public Node<E> leftChild;
+	public Node<E> rightChild;
+	
+	public Node(E obj){
+		this.obj = obj;
+	}
+	
+	public String toString(){
+		return "{" + obj.toString() + "} ";
+	}
+	
+}

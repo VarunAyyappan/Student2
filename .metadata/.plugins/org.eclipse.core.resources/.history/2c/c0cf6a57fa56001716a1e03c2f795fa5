@@ -1,0 +1,16 @@
+package jrJava.recursion2;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		String sample = "I had dinner";
+		System.out.println(sample.length());
+	}
+	
+	public static boolean isPalindrome(String phrase) {
+		
+		
+		return false;
+	}
+
+}

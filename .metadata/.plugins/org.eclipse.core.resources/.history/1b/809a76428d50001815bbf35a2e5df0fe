@@ -1,0 +1,67 @@
+package jrJava.tetris;
+
+public class Coordinator {
+
+	private static JDrawingBoard board = new JDrawingBoard(280, 700);
+	private static TetrisObject currentTetris;
+
+	private static int[][] templates = {
+			{0, 1, 0,  0, 1, 0,  0, 1, 1},
+			{0, 1, 0,  0, 1, 0,  0, 1, 0},
+			{0, 1, 0,  0, 1, 0,  1, 1, 1},
+			{0, 1, 0,  1, 1, 1,  0, 0, 0},
+			{1, 1, 0,  1, 1, 0,  0, 0, 0},
+			{1, 1, 0,  1, 1, 0,  1, 0, 0},
+			{1, 0, 0,  1, 0, 0,  1, 1, 1}
+	};
+
+	private static int[] colors = {0xffff0000, 0xff00ff00, 0xff0000ff, 0xffffff00, 0xff00ffff, 0xffff00ff};
+	
+	public static void main(String[] args) {
+		
+		board.clearCanvas();
+		board.clearTCanvas();
+		
+		int[] shape = {0, 1, 0,  0, 1, 0,  0, 1 , 1};
+		//currentTetris = new TetrisObject(shape);
+		currentTetris = new TetrisObject(templates[(int)(Math.random()*templates.length)], colors[(int)(Math.random()*colors.length)]);
+		board.addKeyListener(currentTetris); 
+		
+		int sleepInterval = 10;
+		int drawInterval = 5*sleepInterval;
+		int moveInterval = 10*drawInterval;
+		long nextDrawTime = System.currentTimeMillis();
+		long nextMoveTime = System.currentTimeMillis();
+		
+		SoundEffect.startBgSound();
+		
+		while(true){
+			
+			if(System.currentTimeMillis()>nextMoveTime){
+				currentTetris.moveDown();
+				nextMoveTime += moveInterval;
+			}
+			
+			if(System.currentTimeMillis()>nextDrawTime){
+				board.clearTCanvas();
+				currentTetris.draw(board.getTCanvas());
+				board.repaint();
+				nextDrawTime += drawInterval;
+			}
+			
+			try {
+				Thread.sleep(sleepInterval);
+			} catch (InterruptedException e) { }
+		}
+		
+		
+	}
+
+}
+
+
+
+
+
+
+ 

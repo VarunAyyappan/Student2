@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MyArrayList.java&apos; to &apos;Advanced/jrJava.myArrayList_generics&apos;&#x0D;&#x0A;- Original project: &apos;Advanced&apos;&#x0D;&#x0A;- Destination element: &apos;Advanced/jrJava.myArrayList_generics&apos;&#x0D;&#x0A;- Original element: &apos;jrJava.myArrayList.MyArrayList.java&apos;" description="Copy compilation unit" destination="/&lt;jrJava.myArrayList_generics" element1="/&lt;jrJava.myArrayList{MyArrayList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1512186457923" units="1" version="1.0"/>
+</session>

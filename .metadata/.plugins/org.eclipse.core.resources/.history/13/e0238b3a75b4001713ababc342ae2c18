@@ -1,0 +1,9 @@
+package jrJava.nestedInterface;
+
+public class MarketWatcher {
+
+	public interface Callback {
+		
+	}
+
+}

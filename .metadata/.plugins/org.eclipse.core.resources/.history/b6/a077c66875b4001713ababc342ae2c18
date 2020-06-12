@@ -1,0 +1,9 @@
+package jrJava.nestedInterface;
+
+public class Client implements MarketWatcher.Callback{
+
+	public static void main(String[] args) {
+		
+	}
+
+}

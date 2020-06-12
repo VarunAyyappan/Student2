@@ -1,0 +1,35 @@
+package jrJava.mouseAndMaze_network;
+
+import java.awt.Graphics;
+
+public class Coordinator {
+
+	public static void main(String[] args) {
+		
+		JDrawingBoard board = new JDrawingBoard(500, 500);
+		Graphics g = board.getCanvas();
+
+		Mouse mouse = new Mouse(200, 200);
+		board.addKeyListener(mouse);
+		// board.getJFrame().addKeyListener(mouse);
+		
+		Maze maze = new Maze();
+		mouse.setMaze(maze);
+		
+		while(true){
+			
+			mouse.move();
+			
+			board.clearCanvas();
+			mouse.draw(g);
+			maze.draw(g);;
+			board.repaint();
+			
+			try {
+				Thread.sleep(50);
+			} catch (InterruptedException e) { }
+			
+		}
+	}
+
+}

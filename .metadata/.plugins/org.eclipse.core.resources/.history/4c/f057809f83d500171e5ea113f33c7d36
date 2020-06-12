@@ -1,0 +1,13 @@
+package jrJava.generic;
+
+public class Storage1 {
+	private String data;
+
+	public void setData() {
+		
+	}
+
+	public String getData() {
+		return data;
+	}
+}

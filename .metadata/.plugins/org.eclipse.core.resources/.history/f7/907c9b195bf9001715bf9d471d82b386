@@ -1,0 +1,10 @@
+package jrJava.tree1;
+
+public class Node {
+	public int id;
+	public double value;
+
+	public Node() {
+		
+	}
+}

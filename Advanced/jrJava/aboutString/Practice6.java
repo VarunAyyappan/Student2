@@ -1,0 +1,35 @@
+package jrJava.aboutString;
+
+public class Practice6 {
+
+	public static void main(String[] args) {
+
+		// replace(), trim()
+		
+		String text = "Half of summer is gone!";
+		System.out.println(text);
+		
+		text = text.replaceAll("Half", "Quarter");
+		System.out.println(text);
+		
+		String text1 = "half of half of summer is gone!";
+		System.out.println(text1);
+		
+		text1 = text.replaceAll("half", "Quarter");
+		System.out.println(text1);
+		
+		String word = "  hel lo   ";
+		System.out.println(word);
+		word = word.trim();
+		System.out.println(word);
+		word = word.replace(" ", "");
+		System.out.println(word);
+				
+		String word1 = "  hel lo   ";
+		System.out.println(word1);
+		word1 = word1.trim().replace(" ", "").replace("ll", "rr").substring(1);    // replace "rr" with "mmm"
+		System.out.println(word1);
+
+	}
+
+}

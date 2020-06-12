@@ -1,0 +1,66 @@
+package jrJava.tetris;
+
+import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+
+public class TetrisObject /* implements KeyListener */{
+
+	public static final int BLOCK_SIZE = 20;
+	public static final int SIZE = 3*BLOCK_SIZE;
+	
+	private BufferedImage image;
+	private int x, y;
+	private int color;
+	
+	
+	public TetrisObject(int[] shape){
+		image = new BufferedImage(SIZE + 1, SIZE + 1, BufferedImage.TYPE_INT_ARGB);
+		x = 130;
+		y = 20;
+		color = 0xffffff00;
+		
+		int i;
+		int j, k;
+		
+		for(i=0; i<shape.length; i++){
+			if(shape[i]==0) continue;
+			
+			for(j=0; j<=BLOCK_SIZE; j++){
+				for(k=0; k<=BLOCK_SIZE; k++){
+					
+					if(j==0 || j==BLOCK_SIZE || k==0 || k==BLOCK_SIZE){
+						image.setRGB(i%3*BLOCK_SIZE + j, i/3*BLOCK_SIZE + k, 0xff000000); 
+					}
+					else {
+						image.setRGB(i%3*BLOCK_SIZE + j, i/3*BLOCK_SIZE + k, color); 
+					}
+				}
+			}
+		}
+		
+	}
+	
+	
+	public void moveDown(){
+		y += BLOCK_SIZE;
+	}
+	
+	
+	
+	public void draw(Graphics g){
+		g.drawImage(image, x, y, null);
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+

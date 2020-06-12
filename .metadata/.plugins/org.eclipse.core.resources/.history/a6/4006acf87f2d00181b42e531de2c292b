@@ -1,0 +1,87 @@
+package jrJava.hashSet;
+
+public class SimpleHashSet<E> {
+	public Object[] objs;
+
+	public SimpleHashSet(int size) {
+		objs = new Object[size];
+	}
+
+	public E add(E obj) {
+		Entry<E> entry = new Entry<E>(obj); 
+		int index = obj.hashCode()%objs.length;
+		Entry<E> atIndex = (Entry<E>)objs[index];
+		
+		if(atIndex == null) {
+			objs[index] = atIndex;
+			return null;
+		}
+		else if(atIndex.obj.equals(obj)) {
+			entry.next = atIndex.next;
+			objs[index] = entry;
+			return atIndex.obj;
+		}
+
+		Entry<E> inLinkedList = atIndex.next;
+
+		while(inLinkedList != null) {
+			if(inLinkedList.obj.equals(obj)) {
+				entry.next = inLinkedList.next;
+				atIndex.next = entry;
+				return inLinkedList.obj;
+			}
+
+			atIndex = inLinkedList;
+			inLinkedList = inLinkedList.next;
+		}
+
+
+		atIndex.next = entry;
+		return null;
+	}
+
+	public E get(E searchKey) {
+		int index = searchKey.hashCode()%objs.length;
+		Entry<E> cur = (Entry<E>)objs[index];
+		
+		while(cur != null) {
+			if(cur.obj.equals(searchKey))
+				return cur.obj;
+
+			cur = cur.next;
+		}
+
+		return null;
+	}
+
+	public void printAll() {
+		Entry<E> cur;
+
+		for(int i=0; i<objs.length; i++) {
+			cur = (Entry<E>)objs[i];
+
+			if(cur == null)
+				System.out.print("Empty at objs[" + i + "]");
+
+			while(cur != null) {
+				System.out.print("[" + cur.toString() + "]");
+				cur = cur.next;
+			}
+
+			System.out.println();
+		}
+	}
+
+	private static class Entry<E> {
+		public E obj;
+		public Entry<E> next;
+		
+		public Entry(E obj) {
+			obj = this.obj;
+		}
+
+		public String toString() {
+			return "[" + obj + "]";
+		}
+	}
+}

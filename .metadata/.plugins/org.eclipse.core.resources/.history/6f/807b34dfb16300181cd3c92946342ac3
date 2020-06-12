@@ -1,0 +1,79 @@
+package jrJava.mouseAndMaze_network;
+
+import java.awt.Graphics;
+import java.io.*;
+import java.net.Socket;
+
+
+public class Client {
+
+	private String IPAddress = "localhost";
+	private int serverPortNumber = 5454;
+	private InputStream is;
+	private OutputStream os;
+	
+	public Client(){
+		try {
+			Socket s = new Socket(IPAddress, serverPortNumber);
+			is = s.getInputStream();
+			os = s.getOutputStream();
+		} catch (IOException e) { }
+	}
+	
+	public InputStream getInputStream(){ return is; }
+	public OutputStream getOutputStream(){ return os; }
+	
+	
+	
+	
+	public static void main(String[] args) {
+		Client client = new Client();
+		
+		Mouse myMouse = new Mouse(25, 30, true);
+		Mouse enemyMouse = new Mouse(475, 475, false);
+		
+		MessageReceiver mReceiver = new MessageReceiver(client.getInputStream());
+		mReceiver.setEnemyMouse(enemyMouse); 
+		new Thread(mReceiver).start();
+		
+		MessageSender mSender = new MessageSender(client.getOutputStream());
+		myMouse.setMessageSender(mSender);
+		
+		Maze maze = new Maze();
+		myMouse.setMaze(maze);
+		
+		JDrawingBoard board = new JDrawingBoard(500, 500);
+		Graphics g = board.getCanvas();
+		board.addKeyListener(myMouse);
+		
+		new Thread(myMouse).start();
+		
+		while(true){
+			
+			board.clearCanvas();
+			myMouse.draw(g);
+			enemyMouse.draw(g);
+			maze.draw(g);
+			board.repaint();
+			
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) { }
+		}
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

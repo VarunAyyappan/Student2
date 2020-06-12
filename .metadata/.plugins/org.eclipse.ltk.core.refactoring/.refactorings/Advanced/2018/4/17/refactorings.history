@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FancyDrawingBoard.java&apos; to &apos;Student/jrJava.tetris&apos;&#x0D;&#x0A;- Original project: &apos;Advanced&apos;&#x0D;&#x0A;- Destination element: &apos;Student/jrJava.tetris&apos;&#x0D;&#x0A;- Original element: &apos;jrJava.imageManipulation.FancyDrawingBoard.java&apos;" description="Copy compilation unit" destination="=Student/&lt;jrJava.tetris" element1="/&lt;jrJava.imageManipulation{FancyDrawingBoard.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1524420348719" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+package jrJava.tree1;
+
+public class Tree {
+
+	private Node root;
+
+	public Tree() {
+		root = null;
+	}
+
+	public Node find(int id) {
+		Node current = root;
+
+		while() {
+			
+		}
+
+		return current;
+	}
+
+}

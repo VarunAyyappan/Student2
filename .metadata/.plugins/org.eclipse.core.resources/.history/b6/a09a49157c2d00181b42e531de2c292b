@@ -1,0 +1,59 @@
+package jrJava.hashSet;
+
+public class SimpleHashSet<E> {
+	public Object[] objs;
+
+	public SimpleHashSet(int size) {
+		objs = new Object[size];
+	}
+
+	public E add(E obj) {
+		Entry<E> entry = new Entry<E>(obj); 
+		int index = obj.hashCode()%objs.length;
+		Entry<E> atIndex = (Entry<E>)objs[index];
+		
+		if(atIndex == null) {
+			objs[index] = atIndex;
+			return null;
+		}
+		else if(atIndex.obj.equals(obj)) {
+			entry.next = atIndex.next;
+			objs[index] = entry;
+			return atIndex.obj;
+		}
+
+		Entry<E> inLinkedList = atIndex.next;
+
+		while(c != null) {
+			if(c.obj.equals(obj)) {
+				entry.next = c.next;
+				atIndex.next = entry;
+				return c.obj;
+			}
+
+			atIndex = c;
+			c = c.next;
+		}
+
+
+		p.next = entry;
+		return null;
+	}
+
+	public E get(E searchKey) {
+		return null;
+	}
+
+	private static class Entry<E> {
+		public E obj;
+		public Entry<E> next;
+		
+		public Entry(E obj) {
+			obj = this.obj;
+		}
+
+		public String toString() {
+			return "[" + obj + "]";
+		}
+	}
+}

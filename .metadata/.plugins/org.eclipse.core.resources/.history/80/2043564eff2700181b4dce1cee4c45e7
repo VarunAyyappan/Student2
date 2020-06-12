@@ -1,0 +1,20 @@
+package jrJava.hashCodes;
+
+public class Thing {
+
+	private int a, b, c;
+
+	public Thing(int a, int b, int c) {
+		this.a = a;
+		this.b = b;
+		this.c = c;
+	}
+
+	public String toString() {
+		return getClass() + "a=" + a + ", b=" + b + ", c=" + c;
+	}
+
+	public boolean equals(Thing thing) {
+		return a==thing.a, b==thing.b, c==thing.c;
+	}
+}

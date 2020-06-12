@@ -1,0 +1,28 @@
+Christian Bale    46  Sr.Manager    1999  138500  1964  10   1  M      180  186
+John Wayne        15  Sr.Developer  1995  250000  1960  12  5   M      181  195
+Angelina Jolie    29  Sr.Director   1999  200000  1973  11  22  F      171  140
+Emma Watson       12  Programmer2   2013   99500  1994   4  12  F      173  138
+Cate Blanchett    78  Developer3    2007  120800  1971   5  29  F      168  141
+Mel Gibson        22  VicePresident 1992  345000  1962   2 15   M      179  168
+Johnny Depp       49  Prgrommaer2   2010  200000  1976   3 18   M      169  155
+Brad Pitt         39  Prgrommaer3   2011  145000  1978   8 15   M      179  183
+Robert Downey     44  Jr.Developer  2004  95000   1986   10 28  M      185  195
+Matt Damon        19  Prgrommaer1   2001  148000  1971   7  6   M      179  179
+Kevin Spacey      97  Developer2    2008  200000  1971   5  12  M      175  169
+
+Mila Kunis        91  Reception     2013   89600  1985   3  29  F      158  119
+George Clooney    11  Director2     2004  100000  1968  12  30  M      183  173
+Sean Connery      78  Developer     2007  124600  1951  10  17  M      180  170
+Ryan Gosling      25  Janitor2      2012  100000  1989   8  14  M      175  171
+
+               
+Jennifer Lawrence 21  Developer3    1998  147000  1986   3   3  F      168  145
+Natalie Portman   42  Director1     2001  139700  1976   6  12  F      164  140
+Julia Roberts     31  VicePresident 1997  350900  1965   1  14  F      167  153
+Kate Winslet      95  Programmer2   2009  110100  1985   8   1  F      170  135
+Jennifer Aniston  24  Sr.Manager    2002  169500  1997  10  17  F      167  129
+Anne Hathaway     61  Sr.Programmer 2004  141000  1974  11  28  F      161  119
+Will Smith        93  Developer2    2003  115000  1971   5  6   M      180  175
+Anthony Hopkins   16  Director      1997  162000  1959  11  19  M      169  179
+Penelope Cruz     14  Sr.Programmer 2010   99500  1981   2   9  F      159  125
+Halle Berry       99  Sr.Director   2002  171600  1973  10  30  F      167  138
